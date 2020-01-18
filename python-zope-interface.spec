@@ -10,7 +10,7 @@
 
 Name:		python-zope-interface
 Version:	4.0.5
-Release:	2%{?dist}
+Release:	4%{?dist}
 Summary:	Zope 3 Interface Infrastructure
 Group:		Development/Libraries
 License:	ZPLv2.1
@@ -122,6 +122,12 @@ popd
 %endif
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.0.5-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.0.5-3
+- Mass rebuild 2013-12-27
+
 * Fri May 17 2013 Bohuslav Kabrda <bkabrda@redhat.com> - 4.0.5-2
 - Remove the python-zope-event soft dependency.
 
